@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width, initial-
+scale=1.0">
+<title>Pricing Plans</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: #f8f8f8;
+.pricing-container {
+display: flex;
+gap: 20px;
+
+}
+
+.pricing-card {
+background: #fff;
+padding: 20px;
+border-radius: 10px;
+text-align: center;
+box-shadow: 0px 4px 8px rgba(0, 0, 0,
+0.1);
+
+}
+
+width: 200px;
+.header {
+color: #fff;
+padding: 10px;
+font-size: 20px;
+font-weight: bold;
+border-radius: 8px 8px 0 0;
+
+}
+
+.basic .header { background: #2a9d8f; }
+.standard.header { background:
+#1e6fc1; }
+.premium .header { background:
+#0d3b66; }
+.price {
+font-size: 24px;
+margin: 10px 0;
+font-weight: bold;
+}
+
+.features li {
+list-style: none;
+padding: 5px;
+
+}
+
+.features li .check {
+color: green;
+font-weight: bold;
+.features li .cross {
+color: red;
+font-weight: bold;
+}
+
+.button {
+background: #1e6fc1;
+color: #fff;
+padding: 10px;
+margin-top: 10px;
+border: none;
+cursor: pointer;
+width: 100%;
+border-radius: 5px;
+
+}
+
+.button:hover {
+background: #155a8a;
+
+}
+
+</style>
+</head>
+<body>
+<div class="pricing-container">
+<div class="pricing-card basic">
+<div class="header">Basic</div>
+<div class="price">$2.99</div>
+<ul class="features">
+<li><span class="check"> </span>
+Sample Text Here</li>
+<li><span class="cross"> </span>
+Other Text Title</li>
+<li><span class="cross"> </span>
+Text Space Goes Here</li>
+<li><span class="cross"> </span>
+
+    Description Space</li>
+    </ul>
+    <button class="button">Select
+    Package</button>
+    </div>
+    <div class="pricing-card standard">
+    <div class="header">Standard</div>
+    <div class="price">$5.99</div>
+    <ul class="features">
+    <li><span class="check"> </span>
+    Sample Text Here</li>
+    <li><span class="check"> </span>
+    Other Text Title</li>
+    <li><span class="check"> </span>
+    Text Space Goes Here</li>
+    <li><span class="cross"> </span>
+    Description Space</li>
+    </ul>
+    <button class="button">Select
+    Package</button>
+    </div>
+    <div class="pricing-card premium">
+    <div class="header">Premium</div>
+    <div class="price">$0.99</div>
+    <ul class="features">
+    <li><span class="check"> </span>
+    Sample Text Here</li>
+    <li><span class="check"> </span>
+    Other Text Title</li>
+    <li><span class="check"> </span>
+    Text Space Goes Here</li>
+    <li><span class="check">
+    </span>
+    Description Space</li>
+    </ul>
+    <button class="button">Select
+    Package</button>
+    </div>
+    </div>
+    </body>
+    </html>
